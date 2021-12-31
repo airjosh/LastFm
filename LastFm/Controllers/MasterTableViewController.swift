@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol AlbumSelectionDelegate: class {
+protocol AlbumSelectionDelegate: AnyObject {
     func albumSelected(_ newAlbum: AlbumObjects)
 }
 
